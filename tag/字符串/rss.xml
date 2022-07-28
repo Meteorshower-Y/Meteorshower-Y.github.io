@@ -7,8 +7,8 @@
         <language>en</language>
         <pubDate>Thu, 28 Jul 2022 18:57:51 +0800</pubDate>
         <lastBuildDate>Thu, 28 Jul 2022 18:57:51 +0800</lastBuildDate>
-        <category>math</category>
         <category>字符串</category>
+        <category>math</category>
         <item>
             <guid isPermalink="true">https://meteorshower-y.github.io/2022/07/28/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
             <title>后缀自动机(SAM)学习笔记</title>
