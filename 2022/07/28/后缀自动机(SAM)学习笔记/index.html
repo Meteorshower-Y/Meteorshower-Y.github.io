@@ -76,7 +76,7 @@ Aniciry = Meteorshower_Y</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">Symbols count in article</span>
-    <span>2.5k</span>
+    <span>3.2k</span>
     <span class="text">words</span>
   </span>
   <span class="item" title="Reading time">
@@ -84,7 +84,7 @@ Aniciry = Meteorshower_Y</title>
       <i class="ic i-clock"></i>
     </span>
     <span class="text">Reading time</span>
-    <span>2 mins.</span>
+    <span>3 mins.</span>
   </span>
 </div>
 
@@ -247,7 +247,8 @@ Aniciry = Meteorshower_Y</title>
  我们在终止节点按照一定顺序跑后缀，如果能返回源点，则跑下一个子串。每加一个边必定会多一个没有跑过的后缀</li>
 </ol>
 </blockquote>
-
+<p>没时间写了… 先上代码吧 (会补上的)</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">1e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">node</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> next[<span class="number">26</span>];</span><br><span class="line">    <span class="type">int</span> len,fa;</span><br><span class="line">&#125;tr[MAXN&lt;&lt;<span class="number">1</span>];</span><br><span class="line"><span class="type">int</span> las=<span class="number">1</span>,tot=<span class="number">1</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">add</span><span class="params">(<span class="type">int</span> c)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> p = las, np = las = ++tot;</span><br><span class="line">    tr[np].len = tr[p].len+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>( ; p <span class="keyword">and</span> tr[p].next[c] == <span class="number">0</span>; p = tr[p].fa)</span><br><span class="line">        tr[p].next[c] = np;</span><br><span class="line">    <span class="keyword">if</span>(!p) tr[np].fa = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">int</span> q = tr[p].next[c];</span><br><span class="line">        <span class="keyword">if</span>(tr[q].len == tr[p].len+<span class="number">1</span>) tr[np].fa = q;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">int</span> nq = ++tot;</span><br><span class="line">            tr[nq] = tr[q];</span><br><span class="line">            tr[nq].len = tr[p].len+<span class="number">1</span>;</span><br><span class="line">            tr[q].fa = tr[np].fa = nq; </span><br><span class="line">            <span class="keyword">for</span>( ; p <span class="keyword">and</span> tr[p].next[c] == q; p = tr[p].fa)</span><br><span class="line">                tr[p].next[c] = nq;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> len; <span class="type">char</span> s[MAXN];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%s&quot;</span>,s); len = <span class="built_in">strlen</span>(s);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; i += <span class="number">1</span>) <span class="built_in">add</span>(s[i]-<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       <div class="tags">
           <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/" rel="tag"><i class="ic i-tag"></i> 字符串</a>
       </div>
@@ -261,7 +262,7 @@ Aniciry = Meteorshower_Y</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2022-07-29 12:02:34" itemprop="dateModified" datetime="2022-07-29T12:02:34+08:00">2022-07-29</time>
+    <time title="Modified: 2022-07-29 14:45:34" itemprop="dateModified" datetime="2022-07-29T14:45:34+08:00">2022-07-29</time>
   </span>
 </div>
 
@@ -444,13 +445,13 @@ Aniciry = Meteorshower_Y</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="Symbols count total">18k words</span>
+    <span title="Symbols count total">19k words</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="Reading time total">16 mins.</span>
+    <span title="Reading time total">17 mins.</span>
   </div>
   <div class="powered-by">
     Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
