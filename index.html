@@ -88,12 +88,12 @@
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipetv6p75j20zk0m8x6p.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipeuibk9fj20zk0m8ay2.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giciszlczyj20zk0m816d.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipesx5fdwj20zk0m81kx.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclg5ms2rj20zk0m8u0x.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclh3brzpj20zk0m8ann.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipesrnqv3j20zk0m8ava.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclfw2t96j20zk0m8x6p.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeu7txpzj20zk0m81kx.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipevo9j1jj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclj9410cj20zk0m8h12.jpg"></li>
         </ul>
       </div>
     </header>
@@ -120,6 +120,53 @@
         
 <article class="item">
   <div class="cover">
+    <a href="/2022/08/10/CF1192B/" itemprop="url" title="CF1192B Dynamic Diameter 题解"><img data-src="/images/3.jpg"></a>
+  </div>
+  <div class="info">
+    
+<div class="meta">
+  <span class="item" title="Created: 2022-08-10 21:00:09">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <time itemprop="dateCreated datePublished" datetime="2022-08-10T21:00:09+08:00">2022-08-10</time>
+  </span>
+  <span class="item" title="Symbols count in article">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span>5k</span>
+    <span class="text">words</span>
+  </span>
+  <span class="item" title="Reading time">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span>5 mins.</span>
+  </span>
+</div>
+
+    <h3><a href="/2022/08/10/CF1192B/" itemprop="url" title="CF1192B Dynamic Diameter 题解">CF1192B Dynamic Diameter 题解</a></h3>
+    <div class="excerpt">
+        # CF1192B 题解
+题目链接
+跟着 duyidalao 的思路，轻而易举 (qian nan wan xian) 调出了本题。
+既然 @ duyi 没放代码，那我就来一发吧。
+# 题意简述
+有一个 nnn 个点的带权无向树， qqq 次操作，每次修改一条边的权值，要求在每次修改后，输出树的直径大小，强制在线。
+# 题目分析
+
+对于两棵树合并后新树的直径，其两端点一定出自两树直径四个端点中，根据这一条性质我们就可以用线段树维护原树，自下向上合并节点就相当于合并它所代表的两棵子树。
+
+每次合并的时候，需要我们计算树上两点间距离，记该节点到根的距离为...
+    </div>
+    <a href="/2022/08/10/CF1192B/" itemprop="url" title="CF1192B Dynamic Diameter 题解" class="btn">more...</a>
+  </div>
+</article>
+
+        
+<article class="item">
+  <div class="cover">
     <a href="/2022/07/28/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" title="后缀自动机(SAM)学习笔记"><img data-src="/images/灵梦_2.png"></a>
   </div>
   <div class="info">
@@ -135,14 +182,14 @@
     <span class="icon">
       <i class="ic i-pen"></i>
     </span>
-    <span>3.2k</span>
+    <span>4.2k</span>
     <span class="text">words</span>
   </span>
   <span class="item" title="Reading time">
     <span class="icon">
       <i class="ic i-clock"></i>
     </span>
-    <span>3 mins.</span>
+    <span>4 mins.</span>
   </span>
 </div>
 
@@ -152,7 +199,7 @@
 参考资料 :
 KesdiaelKen 的博客
 OI-WiKi 后缀自动机 (SAM)
-此篇博客中的大部分图转自 KesdiaelKen 的博客
+此篇博客中的大部分图转自 KesdiaelKen 的博客，如有侵权，请联系删除
 (此篇博客的示例字符串为 aababa )
 # 概述
 
@@ -160,7 +207,7 @@ OI-WiKi 后缀自动机 (SAM)
 
 一个字符串的 SAM 是一个接受原字符串的所有后缀的最小 DFA (确定性有限自动机或确定性有限状态自动机) .
 
-SAM 可以在线性时间内解决 “一个字符串中另一个字符串的所有的出现位置” 和 “字符串中不同子串计数”...
+SAM 可以在线性时间内解决 “一个字符串中另一个字符串的所有的出现位置” 和...
     </div>
     <a href="/2022/07/28/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" title="后缀自动机(SAM)学习笔记" class="btn">more...</a>
   </div>
@@ -220,7 +267,7 @@ g(x)=∑i=0n​(−1)i∗(in​)∗f(i)
         
 <article class="item">
   <div class="cover">
-    <a href="/2022/07/18/hello-world/" itemprop="url" title="Hello World"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gicmnywqgpj20zk0m8dwx.jpg"></a>
+    <a href="/2022/07/18/hello-world/" itemprop="url" title="Hello World"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1giph4baakhj20zk0m8h5q.jpg"></a>
   </div>
   <div class="info">
     
@@ -289,13 +336,13 @@ More info: Writing
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">3</span>
+        <span class="count">4</span>
         <span class="name">posts</span>
       </a>
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">2</span>
+        <span class="count">3</span>
         <span class="name">tags</span>
       </a>
     </div>
@@ -357,7 +404,7 @@ More info: Writing
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/07/21/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="数论学习笔记">数论学习笔记</a></span>
+    <span><a href="/2022/08/10/CF1192B/" title="CF1192B Dynamic Diameter 题解">CF1192B Dynamic Diameter 题解</a></span>
   </li>
 
       
@@ -367,6 +414,15 @@ More info: Writing
 </div>
 
     <span><a href="/2022/07/28/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="后缀自动机(SAM)学习笔记">后缀自动机(SAM)学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/07/21/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="数论学习笔记">数论学习笔记</a></span>
   </li>
 
       
@@ -400,13 +456,13 @@ More info: Writing
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="Symbols count total">19k words</span>
+    <span title="Symbols count total">25k words</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="Reading time total">17 mins.</span>
+    <span title="Reading time total">22 mins.</span>
   </div>
   <div class="powered-by">
     Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
