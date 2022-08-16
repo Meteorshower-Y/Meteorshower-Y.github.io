@@ -3,14 +3,15 @@
     <id>https://meteorshower-y.github.io</id>
     <title>Meteorshower_Y • Posts by &#34;math&#34; tag</title>
     <link href="https://meteorshower-y.github.io" />
-    <updated>2022-07-20T23:42:04.807Z</updated>
+    <updated>2022-08-15T13:02:07.756Z</updated>
     <category term="题解" />
     <category term="字符串" />
+    <category term="多项式" />
     <category term="math" />
     <entry>
-        <id>https://meteorshower-y.github.io/2022/07/21/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+        <id>https://meteorshower-y.github.io/2022/08/15/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
         <title>数论学习笔记</title>
-        <link rel="alternate" href="https://meteorshower-y.github.io/2022/07/21/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://meteorshower-y.github.io/2022/08/15/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;反演&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#反演&#34;&gt;#&lt;/a&gt; 反演&lt;/h1&gt;
 &lt;h2 id=&#34;二项式反演&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二项式反演&#34;&gt;#&lt;/a&gt; 二项式反演&lt;/h2&gt;
 &lt;p&gt;如果有 :&lt;br&gt;
@@ -916,6 +917,6 @@ a _{0}
 &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="math" />
-        <updated>2022-07-20T23:42:04.807Z</updated>
+        <updated>2022-08-15T13:02:07.756Z</updated>
     </entry>
 </feed>

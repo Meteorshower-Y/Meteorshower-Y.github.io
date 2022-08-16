@@ -3,14 +3,15 @@
     <id>https://meteorshower-y.github.io</id>
     <title>Meteorshower_Y • Posts by &#34;字符串&#34; tag</title>
     <link href="https://meteorshower-y.github.io" />
-    <updated>2022-07-28T10:57:51.985Z</updated>
+    <updated>2022-08-15T13:02:07.725Z</updated>
     <category term="题解" />
     <category term="字符串" />
+    <category term="多项式" />
     <category term="math" />
     <entry>
-        <id>https://meteorshower-y.github.io/2022/07/28/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+        <id>https://meteorshower-y.github.io/2022/08/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
         <title>后缀自动机(SAM)学习笔记</title>
-        <link rel="alternate" href="https://meteorshower-y.github.io/2022/07/28/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://meteorshower-y.github.io/2022/08/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;后缀自动机-suffix-automata-sam&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#后缀自动机-suffix-automata-sam&#34;&gt;#&lt;/a&gt; 后缀自动机 (Suffix automata, SAM)&lt;/h1&gt;
 &lt;p&gt;参考资料 :&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL2Jsb2cvS2VzZGlhZWwzL2hvdS16aHVpLXppLWRvbmctamkteWFuZy14aWU=&#34;&gt;KesdiaelKen 的博客&lt;/span&gt;&lt;/p&gt;
@@ -116,6 +117,6 @@
 &lt;p&gt;若找完所有后缀，也没能找到一个有 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;c&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.43056em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 出边的后缀，这说明，&lt;/p&gt;
 </content>
         <category term="字符串" />
-        <updated>2022-07-28T10:57:51.985Z</updated>
+        <updated>2022-08-15T13:02:07.725Z</updated>
     </entry>
 </feed>
