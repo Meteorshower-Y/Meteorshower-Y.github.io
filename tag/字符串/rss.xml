@@ -11,6 +11,7 @@
         <category>字符串</category>
         <category>多项式</category>
         <category>math</category>
+        <category>线性规划</category>
         <item>
             <guid isPermalink="true">https://meteorshower-y.github.io/2022/08/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
             <title>后缀自动机(SAM)学习笔记</title>
