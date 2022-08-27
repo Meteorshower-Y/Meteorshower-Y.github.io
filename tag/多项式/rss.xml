@@ -19,6 +19,7 @@
             <category>多项式</category>
             <pubDate>Mon, 15 Aug 2022 21:06:23 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;多项式学习笔记&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#多项式学习笔记&#34;&gt;#&lt;/a&gt; 多项式学习笔记&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;做多项式题就像嗑药，出多项式题就像贩毒。—— 某 FJOI 某知名选手&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;快速傅里叶变换fast-fourier-transform&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速傅里叶变换fast-fourier-transform&#34;&gt;#&lt;/a&gt; 快速傅里叶变换（Fast Fourier Transform）&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;快速傅里叶变换，指利用计算机快速高效的计算离散傅里叶变换的方法，简称FFT。
 &lt;/code&gt;&lt;/pre&gt;
