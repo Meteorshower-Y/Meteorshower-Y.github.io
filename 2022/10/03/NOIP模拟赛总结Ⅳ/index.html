@@ -1,0 +1,545 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="Meteorshower_Y" href="https://meteorshower-y.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Meteorshower_Y" href="https://meteorshower-y.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="Meteorshower_Y" href="https://meteorshower-y.github.io/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="总结" />
+
+
+<link rel="canonical" href="https://meteorshower-y.github.io/2022/10/03/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A3/">
+
+
+
+  <title>
+NOIP模拟赛总结Ⅳ |
+Aniciry = Meteorshower_Y</title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">NOIP模拟赛总结Ⅳ
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="Created: 2022-10-03 19:13:13">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">Posted on</span>
+    <time itemprop="dateCreated datePublished" datetime="2022-10-03T19:13:13+08:00">2022-10-03</time>
+  </span>
+  <span class="item" title="Symbols count in article">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span class="text">Symbols count in article</span>
+    <span>8.4k</span>
+    <span class="text">words</span>
+  </span>
+  <span class="item" title="Reading time">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span class="text">Reading time</span>
+    <span>8 mins.</span>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="Toggle navigation bar">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">Aniciry</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+          <img src="/images/10(Amiya).jpg">
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">Home</a></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="en">
+  <link itemprop="mainEntityOfPage" href="https://meteorshower-y.github.io/2022/10/03/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A3/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpeg">
+    <meta itemprop="name" content="Meteorshower_Y">
+    <meta itemprop="description" content=", ">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Meteorshower_Y">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h2 id="岛屿观测"><a class="markdownIt-Anchor" href="#岛屿观测">#</a> 岛屿观测</h2>
+<h3 id="题目描述"><a class="markdownIt-Anchor" href="#题目描述">#</a> 题目描述</h3>
+<p>一个长度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 的数列 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">a_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 和 长度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 的河床，第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 个数表示 位置 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 的河床高度，对于一个高度 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span>，河床高度小于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span> 的地方被淹没，大于等于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span> 的连通块个数为岛屿数量。<br>
+操作一： 将位置为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mi>o</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">pos</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mord mathnormal">o</span><span class="mord mathnormal">s</span></span></span></span> 的河床高度修改为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span>。<br>
+询问二： 询问河水高度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span> 时的岛屿数量。</p>
+<h3 id="解题思路"><a class="markdownIt-Anchor" href="#解题思路">#</a> 解题思路</h3>
+<p>查询的意义是找到高度大于等于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span>, 两边的最小值比 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">h</span></span></span></span> 要小的点的数量，我们可以用两棵权值树状数组维护点数和，修改的时候先减去原来的值，再加上要修改的值即可。<br>
+还需要注意的一点是， <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">a_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 要赋值为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>，又因为树状数组的下标只能是正整数，所以需要将高度整体加一。</p>
+<h3 id="code"><a class="markdownIt-Anchor" href="#code">#</a> Code</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> Aniciry Meteorshower_Y</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> lowbit(i) (i&amp;-i)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> A = <span class="number">5e5</span>+<span class="number">1</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">5e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> n, m, a[MAXN], p, h;</span><br><span class="line"><span class="type">int</span> tr1[MAXN], tr2[MAXN];</span><br><span class="line"><span class="type">char</span> op; <span class="type">int</span> lstans;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">query1</span><span class="params">(<span class="type">int</span> x)</span> -&gt; <span class="type">int</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">query2</span><span class="params">(<span class="type">int</span> x)</span> -&gt; <span class="type">int</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">add1</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> k)</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">add2</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> k)</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;patrick.in&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;patrick.out&quot;</span>, <span class="string">&quot;w&quot;</span>, stdout);</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>) cin &gt;&gt; a[i];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">add1</span>(a[i], <span class="number">1</span>);</span><br><span class="line">        <span class="built_in">add2</span>(<span class="built_in">min</span>(a[i], a[i<span class="number">-1</span>]), <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= m; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; op;</span><br><span class="line">        <span class="keyword">if</span>(op == <span class="string">&#x27;Q&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cin &gt;&gt; h; h ^= lstans;</span><br><span class="line">            lstans = <span class="built_in">query2</span>(h<span class="number">-1</span>)-<span class="built_in">query1</span>(h<span class="number">-1</span>);</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, lstans);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            cin &gt;&gt; p &gt;&gt; h;</span><br><span class="line">            p ^= lstans; h ^= lstans;</span><br><span class="line">            <span class="built_in">add1</span>(a[p], <span class="number">-1</span>);</span><br><span class="line">            <span class="built_in">add2</span>(<span class="built_in">min</span>(a[p<span class="number">-1</span>], a[p]), <span class="number">-1</span>);</span><br><span class="line">            <span class="built_in">add2</span>(<span class="built_in">min</span>(a[p], a[p+<span class="number">1</span>]), <span class="number">-1</span>);</span><br><span class="line">            a[p] = h;</span><br><span class="line">            <span class="built_in">add1</span>(a[p], <span class="number">1</span>);</span><br><span class="line">            <span class="built_in">add2</span>(<span class="built_in">min</span>(a[p<span class="number">-1</span>], a[p]), <span class="number">1</span>);</span><br><span class="line">            <span class="built_in">add2</span>(<span class="built_in">min</span>(a[p], a[p+<span class="number">1</span>]), <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">query1</span><span class="params">(<span class="type">int</span> x)</span> -&gt; <span class="type">int</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> ans = <span class="number">0</span>; x += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = x; i; i -= <span class="built_in">lowbit</span>(i))</span><br><span class="line">        ans += tr1[i]; </span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">query2</span><span class="params">(<span class="type">int</span> x)</span> -&gt; <span class="type">int</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> ans = <span class="number">0</span>; x += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = x; i; i -= <span class="built_in">lowbit</span>(i))</span><br><span class="line">        ans += tr2[i]; </span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">add1</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> k)</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    x += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = x; i &lt;= A; i += <span class="built_in">lowbit</span>(i))</span><br><span class="line">        tr1[i] += k;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">add2</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> k)</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    x += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = x; i &lt;= A; i += <span class="built_in">lowbit</span>(i))</span><br><span class="line">        tr2[i] += k;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="闯关顺序"><a class="markdownIt-Anchor" href="#闯关顺序">#</a> 闯关顺序</h2>
+<h3 id="题目描述-2"><a class="markdownIt-Anchor" href="#题目描述-2">#</a> 题目描述</h3>
+<p>一款游戏有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 个关卡，第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 关难度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">p_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，数列 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">p_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi>n</mi></mrow><annotation encoding="application/x-tex">1~.~.~.~n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord mathnormal">n</span></span></span></span> 的一个排列。<br>
+定义每一个关卡 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 的重要度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>d</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo><mi>min</mi><mo>⁡</mo></mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>i</mi></msubsup><mo stretchy="false">(</mo><msub><mi>p</mi><mi>k</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">d_i = \min_{k=1}^{i}(p_k)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">d</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1324239999999999em;vertical-align:-0.25em;"></span><span class="mop"><span class="mop">min</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.882424em;"><span style="top:-2.4530000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.12076em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>. 玩家每次会选择重要度最低的那一关，若重要度相同则选择编号最小的那个。现在给出玩家的闯关顺序，询问字典序最小的排列 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">p_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。</p>
+<h3 id="解题思路-2"><a class="markdownIt-Anchor" href="#解题思路-2">#</a> 解题思路</h3>
+<p>根据题意我们可以知道，关卡的重要度一定是一个不上升的序列，对于每一段重要度相等的关卡，玩家又是从左到右按顺序刷的。所以题中所给出的过关顺序是若干个上升序列拼接而成的，我们只需找出每个上升子序列的开头，从左到右编号，然后再编号每一段剩下的。这样的结果字典序最小。</p>
+<h3 id="code-2"><a class="markdownIt-Anchor" href="#code-2">#</a> Code</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> Aniciry Meteorshower_Y</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;climits&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">1e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> n, cnt, a[MAXN], p[MAXN];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;game.in&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;game.out&quot;</span>, <span class="string">&quot;w&quot;</span>, stdout);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;a[i]);</span><br><span class="line">    a[<span class="number">0</span>] = INT_MAX;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">        <span class="keyword">if</span>(a[i] &lt; a[i<span class="number">-1</span>]) p[a[i]] = ++cnt;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(p[i]) <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, p[i]);</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, ++cnt);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="简单算术"><a class="markdownIt-Anchor" href="#简单算术">#</a> 简单算术</h2>
+<h3 id="题目描述-3"><a class="markdownIt-Anchor" href="#题目描述-3">#</a> 题目描述</h3>
+<p>给定一个只由非负整数和加减号组成的式子，需要我们添加 <strong>合法的</strong> 括号，使其运算结果最大。<br>
+括号可以嵌套。</p>
+<h3 id="解题思路-3"><a class="markdownIt-Anchor" href="#解题思路-3">#</a> 解题思路</h3>
+<p>第一眼是区间 DP<br>
+ 一个常识小结论：多层嵌套的括号都可以拆成两层及以下括号嵌套的组合。<br>
+定义 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">f_{i,j}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> 为 第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 个数，有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span> 个没有匹配的左括号的最大值，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> 的 DP 可以接受。</p>
+<h3 id="code-3"><a class="markdownIt-Anchor" href="#code-3">#</a> Code</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> Aniciry Meteorshowe_Y</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> long long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">2e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">long</span> inf = <span class="number">0x3f3f3f3f3f3f3f3f</span>;</span><br><span class="line"><span class="type">int</span> T, n, cnt, a[MAXN], op[MAXN]; </span><br><span class="line"><span class="type">char</span> ch; <span class="type">long</span> f[MAXN][<span class="number">3</span>]; </span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">solve</span><span class="params">()</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">prework</span><span class="params">()</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">max</span><span class="params">(<span class="type">long</span> a, <span class="type">long</span> b, <span class="type">long</span> c)</span> -&gt; <span class="type">long</span></span>;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;arithmetic.in&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;arithmetic.out&quot;</span>, <span class="string">&quot;w&quot;</span>, stdout);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;T);</span><br><span class="line">    <span class="keyword">while</span>(T--) <span class="built_in">solve</span>();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">solve</span><span class="params">()</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">prework</span>();</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(op[i])</span><br><span class="line">        &#123;</span><br><span class="line">            f[i][<span class="number">0</span>] = f[i<span class="number">-1</span>][<span class="number">0</span>]-a[i];</span><br><span class="line">            f[i][<span class="number">1</span>] = <span class="built_in">max</span>(f[i<span class="number">-1</span>][<span class="number">0</span>], f[i<span class="number">-1</span>][<span class="number">1</span>], f[i<span class="number">-1</span>][<span class="number">2</span>])-a[i];</span><br><span class="line">            f[i][<span class="number">2</span>] = <span class="built_in">max</span>(f[i<span class="number">-1</span>][<span class="number">1</span>], f[i<span class="number">-1</span>][<span class="number">2</span>]) + a[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            f[i][<span class="number">0</span>] = <span class="built_in">max</span>(f[i<span class="number">-1</span>][<span class="number">0</span>], f[i<span class="number">-1</span>][<span class="number">1</span>], f[i<span class="number">-1</span>][<span class="number">2</span>])+a[i];</span><br><span class="line">            f[i][<span class="number">1</span>] = <span class="built_in">max</span>(f[i<span class="number">-1</span>][<span class="number">1</span>], f[i<span class="number">-1</span>][<span class="number">2</span>]) - a[i];</span><br><span class="line">            f[i][<span class="number">2</span>] = f[i<span class="number">-1</span>][<span class="number">2</span>] + a[i];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld\n&quot;</span>, <span class="built_in">max</span>(f[n][<span class="number">0</span>], f[n][<span class="number">1</span>], f[n][<span class="number">2</span>]));</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">prework</span><span class="params">()</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; a[<span class="number">1</span>];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; ch &gt;&gt; a[i];</span><br><span class="line">        op[i] = (ch==<span class="string">&#x27;-&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    f[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">    f[<span class="number">0</span>][<span class="number">1</span>] = -inf;</span><br><span class="line">    f[<span class="number">0</span>][<span class="number">2</span>] = -inf;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">max</span><span class="params">(<span class="type">long</span> a, <span class="type">long</span> b, <span class="type">long</span> c)</span> -&gt; <span class="type">long</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(a &gt;= b <span class="keyword">and</span> a &gt;= c) <span class="keyword">return</span> a;</span><br><span class="line">    <span class="keyword">if</span>(b &gt;= a <span class="keyword">and</span> b &gt;= c) <span class="keyword">return</span> b;</span><br><span class="line">    <span class="keyword">return</span> c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="基因突变"><a class="markdownIt-Anchor" href="#基因突变">#</a> 基因突变</h2>
+<h3 id="题目描述-4"><a class="markdownIt-Anchor" href="#题目描述-4">#</a> 题目描述</h3>
+<p>A 和 B 两种生物的基因由  <code>l</code>  和  <code>t</code>  组成。一开始基因只由一个  <code>l</code> ，A 生物的  <code>l</code>  可以突变成  <code>lt</code>  和  <code>ltl</code> ，B 生物的基因可以突变成  <code>lt</code> ， <code>tl</code>  和  <code>ltl</code> 。<br>
+现在给出一段基因（可能有其他基因），判断可不可能是 A 生物，可不可能是 B 生物。</p>
+<h3 id="解题思路-4"><a class="markdownIt-Anchor" href="#解题思路-4">#</a> 解题思路</h3>
+<p>观察性质：</p>
+<ol>
+<li>有其他基因 . . . . . . 啥也不是。</li>
+<li><code>t</code>  开头，一定不是 B 生物。</li>
+<li>有两个连续的  <code>l</code> ，啥也不是。</li>
+</ol>
+<h3 id="code-4"><a class="markdownIt-Anchor" href="#code-4">#</a> Code</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> Aniciry Meteorshower_Y</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">1e6</span>+<span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> T, n; <span class="type">char</span> s[MAXN];</span><br><span class="line"><span class="type">bool</span> IA, IB, flag;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">work</span><span class="params">()</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;gene.in&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;gene.out&quot;</span>, <span class="string">&quot;w&quot;</span>, stdout);</span><br><span class="line">    cin &gt;&gt; T; <span class="keyword">while</span>(T--) <span class="built_in">work</span>(); <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">work</span><span class="params">()</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; s; n = <span class="built_in">strlen</span>(s);</span><br><span class="line">    IA = <span class="literal">true</span>, IB = <span class="literal">true</span>; flag = <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span>(s[<span class="number">0</span>] == <span class="string">&#x27;t&#x27;</span>) IA = <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(s[i] == <span class="string">&#x27;l&#x27;</span>) flag = <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">if</span>(s[i] != <span class="string">&#x27;l&#x27;</span> <span class="keyword">and</span> s[i] != <span class="string">&#x27;t&#x27;</span>) IA = IB = <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">if</span>(i != <span class="number">0</span> <span class="keyword">and</span> s[i] == <span class="string">&#x27;l&#x27;</span> <span class="keyword">and</span> s[i<span class="number">-1</span>] == <span class="string">&#x27;l&#x27;</span>) IA = IB = <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(!flag) IA = IB = <span class="literal">false</span>;</span><br><span class="line">    cout &lt;&lt; IA &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; IB &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="树点编号"><a class="markdownIt-Anchor" href="#树点编号">#</a> 树点编号</h2>
+<h3 id="题目描述-5"><a class="markdownIt-Anchor" href="#题目描述-5">#</a> 题目描述</h3>
+<p>有一颗 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 个点构成的树，给树上的点编号，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">a</span></span></span></span> 个点编号 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi>a</mi></mrow><annotation encoding="application/x-tex">1~.~.~.~a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord mathnormal">a</span></span></span></span>，作为白点，剩下 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">b</span></span></span></span> 个点编号 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mn>1</mn><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mi mathvariant="normal">.</mi><mtext> </mtext><mo>−</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">-1~.~.~.~-b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">−</span><span class="mord">1</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mord">.</span><span class="mspace nobreak"> </span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">b</span></span></span></span>，作为黑点，保证 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">a+b = n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">b</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span>。</p>
+<p>现有一个程序，会对这棵树进行 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">n-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 次如下操作：</p>
+<ol>
+<li>从黑色和白色中随机一个颜色，且需要保证目前图上仍然存在这种颜色的点。</li>
+<li>如果随机到的是白色，程序将会删除编号绝对值最小的白点，并删除与之相连的所有边。</li>
+<li>如果随机到的是黑色，程序将会删除编号绝对值最小的黑点，并删除与之相连的所有边。</li>
+</ol>
+<p>请给这些点合适的编号，使得任何情况下，程序运行过程中都不会出现剩余未被删除的点不连通的情况。</p>
+<h3 id="解题思路-5"><a class="markdownIt-Anchor" href="#解题思路-5">#</a> 解题思路</h3>
+<p>因为需要保证任意的删除顺序都保证图联通，所以白色黑色分别只能构成一个联通块。<br>
+我们直接在树上 dfs 一遍找出子树大小为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">a</span></span></span></span> 或者 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">b</span></span></span></span> 的一棵子树，将其染成相应的颜色，剩下的部分染成另一个颜色即可，因为每次删除编号绝对值最小的，所以按后序遍历分配编号即可。</p>
+<h3 id="code-5"><a class="markdownIt-Anchor" href="#code-5">#</a> Code</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> Aniciry Meteorshower_Y</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">1e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">edge</span>&#123;</span><br><span class="line">    <span class="type">int</span> from, to;</span><br><span class="line">    <span class="type">int</span> next;</span><br><span class="line">&#125;e[MAXN&lt;&lt;<span class="number">1</span>];</span><br><span class="line"><span class="type">int</span> n, a, b, u, v, rt;</span><br><span class="line"><span class="type">int</span> head[MAXN], cnt = <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> siz[MAXN], id[MAXN];</span><br><span class="line"><span class="type">int</span> sf, tp, cnta, cntb;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> fa)</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">add_edge</span><span class="params">(<span class="type">int</span> from, <span class="type">int</span> to)</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">color</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> fa, <span class="type">int</span> tp)</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;tom.in&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;tom.out&quot;</span>, <span class="string">&quot;w&quot;</span>, stdout);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d%d&quot;</span>, &amp;n, &amp;a, &amp;b);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>, &amp;u, &amp;v);</span><br><span class="line">        <span class="built_in">add_edge</span>(u, v); </span><br><span class="line">        <span class="built_in">add_edge</span>(v, u);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">if</span>(!rt) <span class="keyword">return</span> <span class="built_in">printf</span>(<span class="string">&quot;-1&quot;</span>),<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a) <span class="built_in">color</span>(rt, <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!b) <span class="built_in">color</span>(rt, <span class="number">0</span>, <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">color</span>(sf, rt, tp);</span><br><span class="line">        <span class="built_in">color</span>(rt, sf, tp^<span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, id[i]);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">add_edge</span><span class="params">(<span class="type">int</span> from, <span class="type">int</span> to)</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cnt += <span class="number">1</span>;</span><br><span class="line">    e[cnt].from = from;</span><br><span class="line">    e[cnt].to = to;</span><br><span class="line">    e[cnt].next = head[from];</span><br><span class="line">    head[from] = cnt;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> fa)</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> y; siz[x] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = head[x]; i; i = e[i].next)</span><br><span class="line">    &#123;</span><br><span class="line">        y = e[i].to; <span class="keyword">if</span>(y == fa) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="built_in">dfs</span>(y, x); siz[x] += siz[y];</span><br><span class="line">        <span class="keyword">if</span>(siz[y] == a) rt = x, sf = y, tp = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">if</span>(siz[y] == b) rt = x, sf = y, tp = <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(n-siz[x] == a) rt = x, sf = fa, tp = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(n-siz[x] == b) rt = x, sf = fa, tp = <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">color</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> fa, <span class="type">int</span> tp)</span> -&gt; <span class="type">void</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = head[x], y; i; i = e[i].next)</span><br><span class="line">    &#123;</span><br><span class="line">        y = e[i].to; <span class="keyword">if</span>(y == fa) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="built_in">color</span>(y, x, tp);</span><br><span class="line">    &#125;</span><br><span class="line">    id[x] = ++(tp?cntb:cnta);</span><br><span class="line">    <span class="keyword">if</span>(tp) id[x] = -id[x];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="序列问题"><a class="markdownIt-Anchor" href="#序列问题">#</a> 序列问题</h2>
+<h3 id="题目描述-6"><a class="markdownIt-Anchor" href="#题目描述-6">#</a> 题目描述</h3>
+<p>有一个长度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 的序列 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal">A</span></span></span></span>，删去一些树（或不删），将剩下的数按原顺序组成的新序列 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span>。<br>
+若 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> 长度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">m</span></span></span></span>，则问 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>m</mi></msubsup><mo stretchy="false">[</mo><msub><mi>B</mi><mi>i</mi></msub><mo>=</mo><mi>i</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">\sum\limits_{i=1}^{m} [B_i = i]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.329066em;vertical-align:-0.9776689999999999em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3513970000000004em;"><span style="top:-2.122331em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.0000050000000003em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop op-symbol small-op">∑</span></span></span><span style="top:-3.950005em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9776689999999999em;"><span></span></span></span></span></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.05017em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">i</span><span class="mclose">]</span></span></span></span> 的最大值是多少。</p>
+<h3 id="解题思路-6"><a class="markdownIt-Anchor" href="#解题思路-6">#</a> 解题思路</h3>
+<p>一个 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> 的暴力算法，记 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(i,j)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">i</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span><span class="mclose">)</span></span></span></span> 为选到第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 个数，当前匹配到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span> 的最大匹配数。</p>
+<p>下面考虑正解，设 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(i)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">i</span><span class="mclose">)</span></span></span></span> 为将第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 个数作为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> 序列最后一个数且造成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 贡献的最大值。<br>
+考虑由 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(j)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span><span class="mclose">)</span></span></span></span> 转移至 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(i)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">i</span><span class="mclose">)</span></span></span></span> 的条件：</p>
+<ol>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi><mo>&lt;</mo><mi>i</mi></mrow><annotation encoding="application/x-tex">j &lt; i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span></li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi>j</mi></msub><mo>&lt;</mo><msub><mi>A</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">A_j &lt; A_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi>i</mi></msub><mo>−</mo><msub><mi>A</mi><mi>j</mi></msub><mo>≤</mo><mi>i</mi><mo>−</mo><mi>j</mi></mrow><annotation encoding="application/x-tex">A_i-A_j \le i-j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.74285em;vertical-align:-0.08333em;"></span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span><br>
+ 当满足条件二、三 时，条件一肯定也已经满足了。所以我们将问题转化为将 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">A_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 排序后，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi>i</mi></msub><mo>−</mo><mi>i</mi></mrow><annotation encoding="application/x-tex">A_i - i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 的最长不下降子序列的长度。</li>
+</ol>
+<h3 id="code-6"><a class="markdownIt-Anchor" href="#code-6">#</a> Code</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> Aniciry Meteorshower_Y</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN = <span class="number">5e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">node</span>&#123;</span><br><span class="line">    <span class="type">int</span> val, id;</span><br><span class="line">&#125;x[MAXN];</span><br><span class="line"><span class="type">int</span> n, ans, a[MAXN], f[MAXN], d[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">auto</span> <span class="title">work1</span><span class="params">()</span> -&gt; <span class="type">void</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;sequence.in&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;sequence.out&quot;</span>, <span class="string">&quot;w&quot;</span>, stdout);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;x[i].val);</span><br><span class="line">        x[i].id = i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">sort</span>(x+<span class="number">1</span>, x+n+<span class="number">1</span>, [](node a, node b)&#123;</span><br><span class="line">        <span class="keyword">if</span>(a.val != b.val) <span class="keyword">return</span> a.val &lt; b.val;</span><br><span class="line">        <span class="keyword">return</span> a.id &gt; b.id;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>) a[i] = x[i].id-x[i].val;</span><br><span class="line">    <span class="type">int</span> len = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i += <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(a[i] &lt; <span class="number">0</span>) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">if</span>(a[i] &gt;= d[len]) d[++len] = a[i];</span><br><span class="line">        <span class="keyword">else</span> *<span class="built_in">upper_bound</span>(d+<span class="number">1</span>, d+len+<span class="number">1</span>, a[i]) = a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, len);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      <div class="tags">
+          <a href="/tags/%E6%80%BB%E7%BB%93/" rel="tag"><i class="ic i-tag"></i> 总结</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2022-10-03 22:12:29" itemprop="dateModified" datetime="2022-10-03T22:12:29+08:00">2022-10-03</time>
+  </span>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>Post author:  </strong>Meteorshower_Y <i class="ic i-at"><em>@</em></i>Meteorshower_Y
+  </li>
+  <li class="link">
+    <strong>Post link: </strong>
+    <a href="https://meteorshower-y.github.io/2022/10/03/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A3/" title="NOIP模拟赛总结Ⅳ">https://meteorshower-y.github.io/2022/10/03/NOIP模拟赛总结Ⅳ/</a>
+  </li>
+  <li class="license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2022/10/02/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A2/" itemprop="url" rel="prev" data-background-image="&#x2F;images&#x2F;9(2233).jpg" title="NOIP模拟赛总结Ⅱ">
+  <span class="type">Previous Post</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>NOIP模拟赛总结Ⅱ</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="Contents">
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B2%9B%E5%B1%BF%E8%A7%82%E6%B5%8B"><span class="toc-number">1.</span> <span class="toc-text"> 岛屿观测</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0"><span class="toc-number">1.1.</span> <span class="toc-text"> 题目描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF"><span class="toc-number">1.2.</span> <span class="toc-text"> 解题思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#code"><span class="toc-number">1.3.</span> <span class="toc-text"> Code</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AF%E5%85%B3%E9%A1%BA%E5%BA%8F"><span class="toc-number">2.</span> <span class="toc-text"> 闯关顺序</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0-2"><span class="toc-number">2.1.</span> <span class="toc-text"> 题目描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-2"><span class="toc-number">2.2.</span> <span class="toc-text"> 解题思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#code-2"><span class="toc-number">2.3.</span> <span class="toc-text"> Code</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E7%AE%97%E6%9C%AF"><span class="toc-number">3.</span> <span class="toc-text"> 简单算术</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0-3"><span class="toc-number">3.1.</span> <span class="toc-text"> 题目描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-3"><span class="toc-number">3.2.</span> <span class="toc-text"> 解题思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#code-3"><span class="toc-number">3.3.</span> <span class="toc-text"> Code</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E5%9B%A0%E7%AA%81%E5%8F%98"><span class="toc-number">4.</span> <span class="toc-text"> 基因突变</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0-4"><span class="toc-number">4.1.</span> <span class="toc-text"> 题目描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-4"><span class="toc-number">4.2.</span> <span class="toc-text"> 解题思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#code-4"><span class="toc-number">4.3.</span> <span class="toc-text"> Code</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%91%E7%82%B9%E7%BC%96%E5%8F%B7"><span class="toc-number">5.</span> <span class="toc-text"> 树点编号</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0-5"><span class="toc-number">5.1.</span> <span class="toc-text"> 题目描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-5"><span class="toc-number">5.2.</span> <span class="toc-text"> 解题思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#code-5"><span class="toc-number">5.3.</span> <span class="toc-text"> Code</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%8F%E5%88%97%E9%97%AE%E9%A2%98"><span class="toc-number">6.</span> <span class="toc-text"> 序列问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0-6"><span class="toc-number">6.1.</span> <span class="toc-text"> 题目描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-6"><span class="toc-number">6.2.</span> <span class="toc-text"> 解题思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#code-6"><span class="toc-number">6.3.</span> <span class="toc-text"> Code</span></a></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="Related">
+      </div>
+      <div class="overview panel" data-title="Overview">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="Meteorshower_Y"
+      data-src="/images/avatar.jpeg">
+  <p class="name" itemprop="name">Meteorshower_Y</p>
+  <div class="description" itemprop="description"></div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">13</span>
+        <span class="name">posts</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">6</span>
+        <span class="name">tags</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>Home</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a>
+  </li>
+
+  </ul>
+    
+  <li class="item">
+    <a href="/friends/" rel="section"><i class="ic i-heart"></i>friends</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>Random Posts</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/08/15/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="多项式学习笔记">多项式学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/08/18/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="生成函数学习笔记">生成函数学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/08/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="后缀自动机(SAM)学习笔记">后缀自动机(SAM)学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/08/21/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="线性规划学习笔记">线性规划学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/10/02/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A0/" title="NOIP模拟赛总结">NOIP模拟赛总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/09/04/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93/" title="NOIP模拟赛总结">NOIP模拟赛总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/10/03/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A3/" title="NOIP模拟赛总结Ⅳ">NOIP模拟赛总结Ⅳ</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/08/15/CF1192B%E9%A2%98%E8%A7%A3/" title="CF1192B Dynamic Diameter 题解">CF1192B Dynamic Diameter 题解</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/10/02/NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93%E2%85%A1/" title="NOIP模拟赛总结Ⅱ">NOIP模拟赛总结Ⅱ</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/08/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="组合数学学习笔记">组合数学学习笔记</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>Recent Comments</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2022</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Meteorshower_Y @ Aniciry</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="Symbols count total">152k words</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="Reading time total">2:19</span>
+  </div>
+  <div class="powered-by">
+    Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2022/10/03/NOIP模拟赛总结Ⅳ/',
+    favicon: {
+      show: "（●´3｀●）Goooood",
+      hide: "(´Д｀)Booooom"
+    },
+    search : {
+      placeholder: "Search for Posts",
+      empty: "We didn't find any results for the search: ${query}",
+      stats: "${hits} results found in ${time} ms"
+    },
+    valine: true,copy_tex: true,
+    katex: true,fancybox: true,
+    copyright: 'Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
