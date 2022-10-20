@@ -5,20 +5,20 @@
         <link>https://meteorshower-y.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Mon, 15 Aug 2022 21:02:07 +0800</pubDate>
-        <lastBuildDate>Mon, 15 Aug 2022 21:02:07 +0800</lastBuildDate>
-        <category>总结</category>
+        <pubDate>Sat, 15 Oct 2022 14:43:07 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Oct 2022 14:43:07 +0800</lastBuildDate>
         <category>题解</category>
+        <category>总结</category>
         <category>字符串</category>
         <category>多项式</category>
         <category>math</category>
         <category>线性规划</category>
         <item>
-            <guid isPermalink="true">https://meteorshower-y.github.io/2022/08/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+            <guid isPermalink="true">https://meteorshower-y.github.io/2022/10/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
             <title>后缀自动机(SAM)学习笔记</title>
-            <link>https://meteorshower-y.github.io/2022/08/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+            <link>https://meteorshower-y.github.io/2022/10/15/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA(SAM)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
             <category>字符串</category>
-            <pubDate>Mon, 15 Aug 2022 21:02:07 +0800</pubDate>
+            <pubDate>Sat, 15 Oct 2022 14:43:07 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;后缀自动机-suffix-automata-sam&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#后缀自动机-suffix-automata-sam&#34;&gt;#&lt;/a&gt; 后缀自动机 (Suffix automata, SAM)&lt;/h1&gt;
 &lt;p&gt;参考资料 :&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL2Jsb2cvS2VzZGlhZWwzL2hvdS16aHVpLXppLWRvbmctamkteWFuZy14aWU=&#34;&gt;KesdiaelKen 的博客&lt;/span&gt;&lt;/p&gt;

@@ -3,17 +3,17 @@
     <id>https://meteorshower-y.github.io</id>
     <title>Meteorshower_Y • Posts by &#34;math&#34; tag</title>
     <link href="https://meteorshower-y.github.io" />
-    <updated>2022-08-23T09:15:08.634Z</updated>
-    <category term="总结" />
+    <updated>2022-10-15T06:43:07.221Z</updated>
     <category term="题解" />
+    <category term="总结" />
     <category term="字符串" />
     <category term="多项式" />
     <category term="math" />
     <category term="线性规划" />
     <entry>
-        <id>https://meteorshower-y.github.io/2022/08/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+        <id>https://meteorshower-y.github.io/2022/10/15/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
         <title>组合数学学习笔记</title>
-        <link rel="alternate" href="https://meteorshower-y.github.io/2022/08/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://meteorshower-y.github.io/2022/10/15/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;组合数学学习笔记&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#组合数学学习笔记&#34;&gt;#&lt;/a&gt; 组合数学学习笔记&lt;/h1&gt;
 &lt;h2 id=&#34;排列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#排列&#34;&gt;#&lt;/a&gt; 排列&lt;/h2&gt;
 &lt;ol&gt;
@@ -229,12 +229,12 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;em&gt;(Construction Complete)&lt;/em&gt;&lt;/p&gt;
 </content>
         <category term="math" />
-        <updated>2022-08-23T09:15:08.634Z</updated>
+        <updated>2022-10-15T06:43:07.221Z</updated>
     </entry>
     <entry>
-        <id>https://meteorshower-y.github.io/2022/08/18/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+        <id>https://meteorshower-y.github.io/2022/10/15/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
         <title>生成函数学习笔记</title>
-        <link rel="alternate" href="https://meteorshower-y.github.io/2022/08/18/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://meteorshower-y.github.io/2022/10/15/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;生成函数学习笔记&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#生成函数学习笔记&#34;&gt;#&lt;/a&gt; 生成函数学习笔记&lt;/h1&gt;
 &lt;h2 id=&#34;普通生成函数-ordinary-generating-functionogf&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#普通生成函数-ordinary-generating-functionogf&#34;&gt;#&lt;/a&gt; 普通生成函数 (Ordinary Generating Function，OGF)&lt;/h2&gt;
 &lt;h3 id=&#34;定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#定义&#34;&gt;#&lt;/a&gt; 定义&lt;/h3&gt;
@@ -475,12 +475,12 @@ H(x) &amp;amp;= \sum_{i = 0} \frac{x^{2i+1}}{(2i+1)!}  = \frac{e^x-e^{-x}}{2}\\
 &lt;p&gt;&lt;s&gt;没时间写了，听我口胡吧 . . .&lt;/s&gt;&lt;/p&gt;
 </content>
         <category term="math" />
-        <updated>2022-08-18T10:35:40.770Z</updated>
+        <updated>2022-10-15T06:43:07.209Z</updated>
     </entry>
     <entry>
-        <id>https://meteorshower-y.github.io/2022/08/15/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+        <id>https://meteorshower-y.github.io/2022/10/15/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
         <title>数论学习笔记</title>
-        <link rel="alternate" href="https://meteorshower-y.github.io/2022/08/15/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://meteorshower-y.github.io/2022/10/15/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;反演&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#反演&#34;&gt;#&lt;/a&gt; 反演&lt;/h1&gt;
 &lt;h2 id=&#34;二项式反演&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二项式反演&#34;&gt;#&lt;/a&gt; 二项式反演&lt;/h2&gt;
 &lt;p&gt;如果有 :&lt;br&gt;
@@ -1318,6 +1318,6 @@ h(a,b,c,n) &amp;amp; =
 &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="math" />
-        <updated>2022-08-15T13:02:07.756Z</updated>
+        <updated>2022-10-15T06:43:07.202Z</updated>
     </entry>
 </feed>

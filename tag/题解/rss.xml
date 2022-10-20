@@ -5,20 +5,20 @@
         <link>https://meteorshower-y.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Mon, 15 Aug 2022 21:02:07 +0800</pubDate>
-        <lastBuildDate>Mon, 15 Aug 2022 21:02:07 +0800</lastBuildDate>
-        <category>总结</category>
+        <pubDate>Sat, 15 Oct 2022 14:43:07 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Oct 2022 14:43:07 +0800</lastBuildDate>
         <category>题解</category>
+        <category>总结</category>
         <category>字符串</category>
         <category>多项式</category>
         <category>math</category>
         <category>线性规划</category>
         <item>
-            <guid isPermalink="true">https://meteorshower-y.github.io/2022/08/15/CF1192B%E9%A2%98%E8%A7%A3/</guid>
+            <guid isPermalink="true">https://meteorshower-y.github.io/2022/10/15/CF1192B%E9%A2%98%E8%A7%A3/</guid>
             <title>CF1192B Dynamic Diameter 题解</title>
-            <link>https://meteorshower-y.github.io/2022/08/15/CF1192B%E9%A2%98%E8%A7%A3/</link>
+            <link>https://meteorshower-y.github.io/2022/10/15/CF1192B%E9%A2%98%E8%A7%A3/</link>
             <category>题解</category>
-            <pubDate>Mon, 15 Aug 2022 21:02:07 +0800</pubDate>
+            <pubDate>Sat, 15 Oct 2022 14:43:07 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;cf1192b-题解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cf1192b-题解&#34;&gt;#&lt;/a&gt; CF1192B 题解&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3Byb2JsZW0vQ0YxMTkyQg==&#34;&gt;题目链接&lt;/span&gt;&lt;br&gt;
 跟着 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZnNhZmRzZ2Frc2doLmJsb2cubHVvZ3Uub3JnL3NvbHV0aW9uLWNmMTE5MmI=&#34;&gt;duyi&lt;/span&gt;dalao 的思路，轻而易举 (qian nan wan xian) 调出了本题。&lt;br&gt;

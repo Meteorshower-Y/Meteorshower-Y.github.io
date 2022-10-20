@@ -3,17 +3,17 @@
     <id>https://meteorshower-y.github.io</id>
     <title>Meteorshower_Y • Posts by &#34;题解&#34; tag</title>
     <link href="https://meteorshower-y.github.io" />
-    <updated>2022-08-15T13:02:07.678Z</updated>
-    <category term="总结" />
+    <updated>2022-10-15T06:43:07.147Z</updated>
     <category term="题解" />
+    <category term="总结" />
     <category term="字符串" />
     <category term="多项式" />
     <category term="math" />
     <category term="线性规划" />
     <entry>
-        <id>https://meteorshower-y.github.io/2022/08/15/CF1192B%E9%A2%98%E8%A7%A3/</id>
+        <id>https://meteorshower-y.github.io/2022/10/15/CF1192B%E9%A2%98%E8%A7%A3/</id>
         <title>CF1192B Dynamic Diameter 题解</title>
-        <link rel="alternate" href="https://meteorshower-y.github.io/2022/08/15/CF1192B%E9%A2%98%E8%A7%A3/"/>
+        <link rel="alternate" href="https://meteorshower-y.github.io/2022/10/15/CF1192B%E9%A2%98%E8%A7%A3/"/>
         <content type="html">&lt;h2 id=&#34;cf1192b-题解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cf1192b-题解&#34;&gt;#&lt;/a&gt; CF1192B 题解&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3Byb2JsZW0vQ0YxMTkyQg==&#34;&gt;题目链接&lt;/span&gt;&lt;br&gt;
 跟着 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZnNhZmRzZ2Frc2doLmJsb2cubHVvZ3Uub3JnL3NvbHV0aW9uLWNmMTE5MmI=&#34;&gt;duyi&lt;/span&gt;dalao 的思路，轻而易举 (qian nan wan xian) 调出了本题。&lt;br&gt;
@@ -56,6 +56,6 @@
 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathsize=&#34;2.488em&#34;&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\Huge&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="题解" />
-        <updated>2022-08-15T13:02:07.678Z</updated>
+        <updated>2022-10-15T06:43:07.147Z</updated>
     </entry>
 </feed>
