@@ -5,14 +5,27 @@
         <link>https://meteorshower-y.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Sat, 15 Oct 2022 14:43:07 +0800</pubDate>
-        <lastBuildDate>Sat, 15 Oct 2022 14:43:07 +0800</lastBuildDate>
+        <pubDate>Sun, 06 Nov 2022 09:13:12 +0800</pubDate>
+        <lastBuildDate>Sun, 06 Nov 2022 09:13:12 +0800</lastBuildDate>
         <category>题解</category>
         <category>总结</category>
         <category>字符串</category>
         <category>多项式</category>
         <category>math</category>
         <category>线性规划</category>
+        <category>线性代数</category>
+        <item>
+            <guid isPermalink="true">https://meteorshower-y.github.io/2022/11/06/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%8F%8D%E6%BC%94%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98-%E5%B9%BD%E7%81%B5%E4%B9%90%E5%9B%A2/</guid>
+            <title>莫比乌斯反演基础练习题|幽灵乐团</title>
+            <link>https://meteorshower-y.github.io/2022/11/06/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%8F%8D%E6%BC%94%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98-%E5%B9%BD%E7%81%B5%E4%B9%90%E5%9B%A2/</link>
+            <category>题解</category>
+            <pubDate>Sun, 06 Nov 2022 09:13:12 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;感谢 @zxh 的资瓷&lt;/p&gt;
+&lt;p&gt;围观一下 Aniciry 的草纸 qwq (Microsoft Whiteboard)&lt;br&gt;
+&lt;img data-src=&#34;https://user-images.githubusercontent.com/107014181/200149921-59c8f915-07a8-457b-b7e6-d06d1bdd7685.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后我就跑路了……&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://meteorshower-y.github.io/2022/10/15/CF1192B%E9%A2%98%E8%A7%A3/</guid>
             <title>CF1192B Dynamic Diameter 题解</title>
